@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.title{
+    margin: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ff9f9a;
+    line-height: 60px;
+    border-radius: 8px;
+    color: rgb(7, 7, 7);
+    overflow: auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+.title2{
+
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #325288;
+    border-radius: 15px;
+    color: #ffffff;
+    overflow: auto;
+}
+.about{
+    
+    margin: 30px 0 10px 0;
+    color: #006699;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.navbar{
+    background-color: #00a9d3;
+    margin: auto;
+    overflow: auto;
+    padding: 15px;
+}
+.nav-left{
+    width: 23%;
+    float:left;
+    margin-left: 40px;
+    line-height: 2;
+    padding: 1rem;
+}
+
+.nav-right{
+    float: right;
+    width: 600px;
+    margin-right: 50px;
+    text-align: center;
+    line-height: 2;
+    padding: 1.5rem;
+}
+.inputs{
+    display: grid;
+    grid-template-columns: 100px 200px 100px;
+}
+.inputs label{
+    
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.inputs sub{
+    font-size: 15px;
+}
+.new-array{
+    padding: 10px;
+    background: #BD1E51;
+    border-radius: 8px;
+    line-height: 25px;
+    width: 175px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.new-array:hover{
+    cursor: pointer;
+    border: 2px solid aqua;
+    color: #fc466b;
+    background-color: white;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+.slider{
+    
+}
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+.nav-right button{
+    background: #1faf0c;
+    margin-top: 27px;
+    margin-right: 6px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    
+}
+.bar_id {
+	position: relative;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+}
+.nav-right button:hover{
+    cursor: pointer;
+    border: solid 2px #990000;
+    transition: all 0.3s;    
+    background:rgba(0,212,255,1);
+}
+.array{
+    display:flex;
+    width:1000px;
+    text-align: center;
+    height: 420px;
+    margin: 0 auto;
+    
+}
+.bar{
+    position: relative;
+}
